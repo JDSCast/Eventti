@@ -35,7 +35,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com//event-manager.git
+   git clone https://github.com/JDSCast/Eventti.git
    cd eventti
 
 2. Configura las variables de entorno: Crea los archivos `.env` en las carpetas backend y frontend del proyecto y define las siguientes variables (los valores de las variables son ejemplos):
@@ -80,6 +80,8 @@ npm run dev
 ## Evidencias de Funcionamiento
 
 ![Demostración de la interfaz visual](/evidencias/Collage.png)
+
+**Nota:** las imágenes se encuentran con mayor resolución en la carpeta de evidencias.
 
 ## Créditos
 
