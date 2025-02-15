@@ -42,22 +42,16 @@ exports.setNewTokens = async (res, user) => {
     maxAge: (2 * 24 * 3600 * 1000), //2dias
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
-    sameSite: 'None', 
-    partitioned: true
   });
   res.cookie("referenceSession", true, {
     maxAge: (2 * 24 * 3600 * 1000), //2dias
     httpOnly: false,
     secure: process.env.NODE_ENV === "production",
-    sameSite: 'None', 
-    partitioned: true
   });
   res.cookie("accessToken", user.getJwtToken("3h"), {
     maxAge: (3 * 3600 * 1000), //3horas
     httpOnly: false,
     secure: process.env.NODE_ENV === "production",
-    sameSite: 'None', 
-    partitioned: true 
   });
   const currentDate = new Date();
   console.log(` ---> Sesión restaurada, user: ${user.name} ${user.lastname} date: ${currentDate}`);
