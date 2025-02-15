@@ -1,0 +1,5753 @@
+{
+  "departamentos": [
+    {
+      "departamentoId": 1,
+      "departamento": "Amazonas"
+    },
+    {
+      "departamentoId": 2,
+      "departamento": "Antioquia"
+    },
+    {
+      "departamentoId": 3,
+      "departamento": "Arauca"
+    },
+    {
+      "departamentoId": 4,
+      "departamento": "Archipiélago de San Andrés, Providencia y Santa Catalina"
+    },
+    {
+      "departamentoId": 5,
+      "departamento": "Atlántico"
+    },
+    {
+      "departamentoId": 6,
+      "departamento": "Bogotá D.C."
+    },
+    {
+      "departamentoId": 7,
+      "departamento": "Bolívar"
+    },
+    {
+      "departamentoId": 8,
+      "departamento": "Boyacá"
+    },
+    {
+      "departamentoId": 9,
+      "departamento": "Caldas"
+    },
+    {
+      "departamentoId": 10,
+      "departamento": "Caquetá"
+    },
+    {
+      "departamentoId": 11,
+      "departamento": "Casanare"
+    },
+    {
+      "departamentoId": 12,
+      "departamento": "Cauca"
+    },
+    {
+      "departamentoId": 13,
+      "departamento": "Cesar"
+    },
+    {
+      "departamentoId": 14,
+      "departamento": "Chocó"
+    },
+    {
+      "departamentoId": 15,
+      "departamento": "Córdoba"
+    },
+    {
+      "departamentoId": 16,
+      "departamento": "Cundinamarca"
+    },
+    {
+      "departamentoId": 17,
+      "departamento": "Guainía"
+    },
+    {
+      "departamentoId": 18,
+      "departamento": "Guaviare"
+    },
+    {
+      "departamentoId": 19,
+      "departamento": "Huila"
+    },
+    {
+      "departamentoId": 20,
+      "departamento": "La Guajira"
+    },
+    {
+      "departamentoId": 21,
+      "departamento": "Magdalena"
+    },
+    {
+      "departamentoId": 22,
+      "departamento": "Meta"
+    },
+    {
+      "departamentoId": 23,
+      "departamento": "Nariño"
+    },
+    {
+      "departamentoId": 24,
+      "departamento": "Norte de Santander"
+    },
+    {
+      "departamentoId": 25,
+      "departamento": "Putumayo"
+    },
+    {
+      "departamentoId": 26,
+      "departamento": "Quindío"
+    },
+    {
+      "departamentoId": 27,
+      "departamento": "Risaralda"
+    },
+    {
+      "departamentoId": 28,
+      "departamento": "Santander"
+    },
+    {
+      "departamentoId": 29,
+      "departamento": "Sucre"
+    },
+    {
+      "departamentoId": 30,
+      "departamento": "Tolima"
+    },
+    {
+      "departamentoId": 31,
+      "departamento": "Valle del Cauca"
+    },
+    {
+      "departamentoId": 32,
+      "departamento": "Vaupés"
+    },
+    {
+      "departamentoId": 33,
+      "departamento": "Vichada"
+    }
+  ],
+  "ciudades": [
+    {
+      "ciudadId": 1,
+      "ciudad": "Leticia",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 2,
+      "ciudad": "El Encanto",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 3,
+      "ciudad": "La Chorrera",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 4,
+      "ciudad": "La Pedrera",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 5,
+      "ciudad": "La Victoria",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 6,
+      "ciudad": "Puerto Arica",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 7,
+      "ciudad": "Puerto Nariño",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 8,
+      "ciudad": "Puerto Santander",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 9,
+      "ciudad": "Tarapacá",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 10,
+      "ciudad": "Puerto Alegría",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 11,
+      "ciudad": "Miriti Paraná",
+      "departamentoId": 1
+    },
+    {
+      "ciudadId": 12,
+      "ciudad": "Medellín",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 13,
+      "ciudad": "Abejorral",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 14,
+      "ciudad": "Abriaquí",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 15,
+      "ciudad": "Alejandría",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 16,
+      "ciudad": "Amagá",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 17,
+      "ciudad": "Amalfi",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 18,
+      "ciudad": "Andes",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 19,
+      "ciudad": "Angelópolis",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 20,
+      "ciudad": "Angostura",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 21,
+      "ciudad": "Anorí",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 22,
+      "ciudad": "Anza",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 23,
+      "ciudad": "Apartadó",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 24,
+      "ciudad": "Arboletes",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 25,
+      "ciudad": "Argelia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 26,
+      "ciudad": "Armenia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 27,
+      "ciudad": "Barbosa",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 28,
+      "ciudad": "Bello",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 29,
+      "ciudad": "Betania",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 30,
+      "ciudad": "Betulia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 31,
+      "ciudad": "Ciudad Bolívar",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 32,
+      "ciudad": "Briceño",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 33,
+      "ciudad": "Buriticá",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 34,
+      "ciudad": "Cáceres",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 35,
+      "ciudad": "Caicedo",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 36,
+      "ciudad": "Caldas",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 37,
+      "ciudad": "Campamento",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 38,
+      "ciudad": "Cañasgordas",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 39,
+      "ciudad": "Caracolí",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 40,
+      "ciudad": "Caramanta",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 41,
+      "ciudad": "Carepa",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 42,
+      "ciudad": "Carolina",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 43,
+      "ciudad": "Caucasia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 44,
+      "ciudad": "Chigorodó",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 45,
+      "ciudad": "Cisneros",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 46,
+      "ciudad": "Cocorná",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 47,
+      "ciudad": "Concepción",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 48,
+      "ciudad": "Concordia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 49,
+      "ciudad": "Copacabana",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 50,
+      "ciudad": "Dabeiba",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 51,
+      "ciudad": "Don Matías",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 52,
+      "ciudad": "Ebéjico",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 53,
+      "ciudad": "El Bagre",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 54,
+      "ciudad": "Entrerrios",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 55,
+      "ciudad": "Envigado",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 56,
+      "ciudad": "Fredonia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 57,
+      "ciudad": "Giraldo",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 58,
+      "ciudad": "Girardota",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 59,
+      "ciudad": "Gómez Plata",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 60,
+      "ciudad": "Guadalupe",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 61,
+      "ciudad": "Guarne",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 62,
+      "ciudad": "Guatapé",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 63,
+      "ciudad": "Heliconia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 64,
+      "ciudad": "Hispania",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 65,
+      "ciudad": "Itagui",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 66,
+      "ciudad": "Ituango",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 67,
+      "ciudad": "Belmira",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 68,
+      "ciudad": "Jericó",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 69,
+      "ciudad": "La Ceja",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 70,
+      "ciudad": "La Estrella",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 71,
+      "ciudad": "La Pintada",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 72,
+      "ciudad": "La Unión",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 73,
+      "ciudad": "Liborina",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 74,
+      "ciudad": "Maceo",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 75,
+      "ciudad": "Marinilla",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 76,
+      "ciudad": "Montebello",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 77,
+      "ciudad": "Murindó",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 78,
+      "ciudad": "Mutatá",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 79,
+      "ciudad": "Nariño",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 80,
+      "ciudad": "Necoclí",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 81,
+      "ciudad": "Nechí",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 82,
+      "ciudad": "Olaya",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 83,
+      "ciudad": "Peñol",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 84,
+      "ciudad": "Peque",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 85,
+      "ciudad": "Pueblorrico",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 86,
+      "ciudad": "Puerto Berrío",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 87,
+      "ciudad": "Puerto Nare",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 88,
+      "ciudad": "Puerto Triunfo",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 89,
+      "ciudad": "Remedios",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 90,
+      "ciudad": "Retiro",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 91,
+      "ciudad": "Rionegro",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 92,
+      "ciudad": "Sabanalarga",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 93,
+      "ciudad": "Sabaneta",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 94,
+      "ciudad": "Salgar",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 95,
+      "ciudad": "San Francisco",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 96,
+      "ciudad": "San Jerónimo",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 97,
+      "ciudad": "San Luis",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 98,
+      "ciudad": "San Pedro",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 99,
+      "ciudad": "San Rafael",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 100,
+      "ciudad": "San Roque",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 101,
+      "ciudad": "San Vicente",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 102,
+      "ciudad": "Santa Bárbara",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 103,
+      "ciudad": "Santo Domingo",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 104,
+      "ciudad": "El Santuario",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 105,
+      "ciudad": "Segovia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 106,
+      "ciudad": "Sopetrán",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 107,
+      "ciudad": "Támesis",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 108,
+      "ciudad": "Tarazá",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 109,
+      "ciudad": "Tarso",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 110,
+      "ciudad": "Titiribí",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 111,
+      "ciudad": "Toledo",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 112,
+      "ciudad": "Turbo",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 113,
+      "ciudad": "Uramita",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 114,
+      "ciudad": "Urrao",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 115,
+      "ciudad": "Valdivia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 116,
+      "ciudad": "Valparaíso",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 117,
+      "ciudad": "Vegachí",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 118,
+      "ciudad": "Venecia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 119,
+      "ciudad": "Yalí",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 120,
+      "ciudad": "Yarumal",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 121,
+      "ciudad": "Yolombó",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 122,
+      "ciudad": "Yondó",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 123,
+      "ciudad": "Zaragoza",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 124,
+      "ciudad": "San Pedro de Uraba",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 125,
+      "ciudad": "Santafé de Antioquia",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 126,
+      "ciudad": "Santa Rosa de Osos",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 127,
+      "ciudad": "San Andrés de Cuerquía",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 128,
+      "ciudad": "Vigía del Fuerte",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 129,
+      "ciudad": "San José de La Montaña",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 130,
+      "ciudad": "San Juan de Urabá",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 131,
+      "ciudad": "El Carmen de Viboral",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 132,
+      "ciudad": "San Carlos",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 133,
+      "ciudad": "Frontino",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 134,
+      "ciudad": "Granada",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 135,
+      "ciudad": "Jardín",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 136,
+      "ciudad": "Sonsón",
+      "departamentoId": 2
+    },
+    {
+      "ciudadId": 137,
+      "ciudad": "Arauquita",
+      "departamentoId": 3
+    },
+    {
+      "ciudadId": 138,
+      "ciudad": "Cravo Norte",
+      "departamentoId": 3
+    },
+    {
+      "ciudadId": 139,
+      "ciudad": "Fortul",
+      "departamentoId": 3
+    },
+    {
+      "ciudadId": 140,
+      "ciudad": "Puerto Rondón",
+      "departamentoId": 3
+    },
+    {
+      "ciudadId": 141,
+      "ciudad": "Saravena",
+      "departamentoId": 3
+    },
+    {
+      "ciudadId": 142,
+      "ciudad": "Tame",
+      "departamentoId": 3
+    },
+    {
+      "ciudadId": 143,
+      "ciudad": "Arauca",
+      "departamentoId": 3
+    },
+    {
+      "ciudadId": 144,
+      "ciudad": "Providencia",
+      "departamentoId": 4
+    },
+    {
+      "ciudadId": 145,
+      "ciudad": "San Andrés",
+      "departamentoId": 4
+    },
+    {
+      "ciudadId": 146,
+      "ciudad": "Barranquilla",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 147,
+      "ciudad": "Baranoa",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 148,
+      "ciudad": "Candelaria",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 149,
+      "ciudad": "Galapa",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 150,
+      "ciudad": "Luruaco",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 151,
+      "ciudad": "Malambo",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 152,
+      "ciudad": "Manatí",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 153,
+      "ciudad": "Piojó",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 154,
+      "ciudad": "Polonuevo",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 155,
+      "ciudad": "Sabanagrande",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 156,
+      "ciudad": "Sabanalarga",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 157,
+      "ciudad": "Santa Lucía",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 158,
+      "ciudad": "Santo Tomás",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 159,
+      "ciudad": "Soledad",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 160,
+      "ciudad": "Suan",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 161,
+      "ciudad": "Tubará",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 162,
+      "ciudad": "Usiacurí",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 163,
+      "ciudad": "Juan de Acosta",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 164,
+      "ciudad": "Palmar de Varela",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 165,
+      "ciudad": "Campo de La Cruz",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 166,
+      "ciudad": "Repelón",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 167,
+      "ciudad": "Puerto Colombia",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 168,
+      "ciudad": "Ponedera",
+      "departamentoId": 5
+    },
+    {
+      "ciudadId": 169,
+      "ciudad": "Bogotá D.C.",
+      "departamentoId": 6
+    },
+    {
+      "ciudadId": 170,
+      "ciudad": "Achí",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 171,
+      "ciudad": "Arenal",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 172,
+      "ciudad": "Arjona",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 173,
+      "ciudad": "Arroyohondo",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 174,
+      "ciudad": "Calamar",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 175,
+      "ciudad": "Cantagallo",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 176,
+      "ciudad": "Cicuco",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 177,
+      "ciudad": "Córdoba",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 178,
+      "ciudad": "Clemencia",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 179,
+      "ciudad": "El Guamo",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 180,
+      "ciudad": "Magangué",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 181,
+      "ciudad": "Mahates",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 182,
+      "ciudad": "Margarita",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 183,
+      "ciudad": "Montecristo",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 184,
+      "ciudad": "Mompós",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 185,
+      "ciudad": "Morales",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 186,
+      "ciudad": "Norosí",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 187,
+      "ciudad": "Pinillos",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 188,
+      "ciudad": "Regidor",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 189,
+      "ciudad": "Río Viejo",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 190,
+      "ciudad": "San Estanislao",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 191,
+      "ciudad": "San Fernando",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 192,
+      "ciudad": "San Juan Nepomuceno",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 193,
+      "ciudad": "Santa Catalina",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 194,
+      "ciudad": "Santa Rosa",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 195,
+      "ciudad": "Simití",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 196,
+      "ciudad": "Soplaviento",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 197,
+      "ciudad": "Talaigua Nuevo",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 198,
+      "ciudad": "Tiquisio",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 199,
+      "ciudad": "Turbaco",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 200,
+      "ciudad": "Turbaná",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 201,
+      "ciudad": "Villanueva",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 202,
+      "ciudad": "Barranco de Loba",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 203,
+      "ciudad": "Santa Rosa del Sur",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 204,
+      "ciudad": "Hatillo de Loba",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 205,
+      "ciudad": "El Carmen de Bolívar",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 206,
+      "ciudad": "San Martín de Loba",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 207,
+      "ciudad": "Altos del Rosario",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 208,
+      "ciudad": "San Jacinto del Cauca",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 209,
+      "ciudad": "San Pablo de Borbur",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 210,
+      "ciudad": "San Jacinto",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 211,
+      "ciudad": "El Peñón",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 212,
+      "ciudad": "Cartagena",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 213,
+      "ciudad": "María la Baja",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 214,
+      "ciudad": "San Cristóbal",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 215,
+      "ciudad": "Zambrano",
+      "departamentoId": 7
+    },
+    {
+      "ciudadId": 216,
+      "ciudad": "Tununguá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 217,
+      "ciudad": "Motavita",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 218,
+      "ciudad": "Ciénega",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 219,
+      "ciudad": "Tunja",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 220,
+      "ciudad": "Almeida",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 221,
+      "ciudad": "Aquitania",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 222,
+      "ciudad": "Arcabuco",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 223,
+      "ciudad": "Berbeo",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 224,
+      "ciudad": "Betéitiva",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 225,
+      "ciudad": "Boavita",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 226,
+      "ciudad": "Boyacá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 227,
+      "ciudad": "Briceño",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 228,
+      "ciudad": "Buena Vista",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 229,
+      "ciudad": "Busbanzá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 230,
+      "ciudad": "Caldas",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 231,
+      "ciudad": "Campohermoso",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 232,
+      "ciudad": "Cerinza",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 233,
+      "ciudad": "Chinavita",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 234,
+      "ciudad": "Chiquinquirá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 235,
+      "ciudad": "Chiscas",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 236,
+      "ciudad": "Chita",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 237,
+      "ciudad": "Chitaraque",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 238,
+      "ciudad": "Chivatá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 239,
+      "ciudad": "Cómbita",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 240,
+      "ciudad": "Coper",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 241,
+      "ciudad": "Corrales",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 242,
+      "ciudad": "Covarachía",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 243,
+      "ciudad": "Cubará",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 244,
+      "ciudad": "Cucaita",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 245,
+      "ciudad": "Cuítiva",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 246,
+      "ciudad": "Chíquiza",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 247,
+      "ciudad": "Chivor",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 248,
+      "ciudad": "Duitama",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 249,
+      "ciudad": "El Cocuy",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 250,
+      "ciudad": "El Espino",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 251,
+      "ciudad": "Firavitoba",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 252,
+      "ciudad": "Floresta",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 253,
+      "ciudad": "Gachantivá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 254,
+      "ciudad": "Gameza",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 255,
+      "ciudad": "Garagoa",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 256,
+      "ciudad": "Guacamayas",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 257,
+      "ciudad": "Guateque",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 258,
+      "ciudad": "Guayatá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 259,
+      "ciudad": "Güicán",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 260,
+      "ciudad": "Iza",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 261,
+      "ciudad": "Jenesano",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 262,
+      "ciudad": "Jericó",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 263,
+      "ciudad": "Labranzagrande",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 264,
+      "ciudad": "La Capilla",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 265,
+      "ciudad": "La Victoria",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 266,
+      "ciudad": "Macanal",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 267,
+      "ciudad": "Maripí",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 268,
+      "ciudad": "Miraflores",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 269,
+      "ciudad": "Mongua",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 270,
+      "ciudad": "Monguí",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 271,
+      "ciudad": "Moniquirá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 272,
+      "ciudad": "Muzo",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 273,
+      "ciudad": "Nobsa",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 274,
+      "ciudad": "Nuevo Colón",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 275,
+      "ciudad": "Oicatá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 276,
+      "ciudad": "Otanche",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 277,
+      "ciudad": "Pachavita",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 278,
+      "ciudad": "Páez",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 279,
+      "ciudad": "Paipa",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 280,
+      "ciudad": "Pajarito",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 281,
+      "ciudad": "Panqueba",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 282,
+      "ciudad": "Pauna",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 283,
+      "ciudad": "Paya",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 284,
+      "ciudad": "Pesca",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 285,
+      "ciudad": "Pisba",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 286,
+      "ciudad": "Puerto Boyacá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 287,
+      "ciudad": "Quípama",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 288,
+      "ciudad": "Ramiriquí",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 289,
+      "ciudad": "Ráquira",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 290,
+      "ciudad": "Rondón",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 291,
+      "ciudad": "Saboyá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 292,
+      "ciudad": "Sáchica",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 293,
+      "ciudad": "Samacá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 294,
+      "ciudad": "San Eduardo",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 295,
+      "ciudad": "San Mateo",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 296,
+      "ciudad": "Santana",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 297,
+      "ciudad": "Santa María",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 298,
+      "ciudad": "Santa Sofía",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 299,
+      "ciudad": "Sativanorte",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 300,
+      "ciudad": "Sativasur",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 301,
+      "ciudad": "Siachoque",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 302,
+      "ciudad": "Soatá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 303,
+      "ciudad": "Socotá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 304,
+      "ciudad": "Socha",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 305,
+      "ciudad": "Sogamoso",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 306,
+      "ciudad": "Somondoco",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 307,
+      "ciudad": "Sora",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 308,
+      "ciudad": "Sotaquirá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 309,
+      "ciudad": "Soracá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 310,
+      "ciudad": "Susacón",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 311,
+      "ciudad": "Sutamarchán",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 312,
+      "ciudad": "Sutatenza",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 313,
+      "ciudad": "Tasco",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 314,
+      "ciudad": "Tenza",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 315,
+      "ciudad": "Tibaná",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 316,
+      "ciudad": "Tinjacá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 317,
+      "ciudad": "Tipacoque",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 318,
+      "ciudad": "Toca",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 319,
+      "ciudad": "Tópaga",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 320,
+      "ciudad": "Tota",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 321,
+      "ciudad": "Turmequé",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 322,
+      "ciudad": "Tutazá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 323,
+      "ciudad": "Umbita",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 324,
+      "ciudad": "Ventaquemada",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 325,
+      "ciudad": "Viracachá",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 326,
+      "ciudad": "Zetaquira",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 327,
+      "ciudad": "Togüí",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 328,
+      "ciudad": "Villa de Leyva",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 329,
+      "ciudad": "Paz de Río",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 330,
+      "ciudad": "Santa Rosa de Viterbo",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 331,
+      "ciudad": "San Pablo de Borbur",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 332,
+      "ciudad": "San Luis de Gaceno",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 333,
+      "ciudad": "San José de Pare",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 334,
+      "ciudad": "San Miguel de Sema",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 335,
+      "ciudad": "Tuta",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 336,
+      "ciudad": "Tibasosa",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 337,
+      "ciudad": "La Uvita",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 338,
+      "ciudad": "Belén",
+      "departamentoId": 8
+    },
+    {
+      "ciudadId": 339,
+      "ciudad": "Manizales",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 340,
+      "ciudad": "Aguadas",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 341,
+      "ciudad": "Anserma",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 342,
+      "ciudad": "Aranzazu",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 343,
+      "ciudad": "Belalcázar",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 344,
+      "ciudad": "Chinchiná",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 345,
+      "ciudad": "Filadelfia",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 346,
+      "ciudad": "La Dorada",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 347,
+      "ciudad": "La Merced",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 348,
+      "ciudad": "Manzanares",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 349,
+      "ciudad": "Marmato",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 350,
+      "ciudad": "Marulanda",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 351,
+      "ciudad": "Neira",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 352,
+      "ciudad": "Norcasia",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 353,
+      "ciudad": "Pácora",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 354,
+      "ciudad": "Palestina",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 355,
+      "ciudad": "Pensilvania",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 356,
+      "ciudad": "Riosucio",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 357,
+      "ciudad": "Risaralda",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 358,
+      "ciudad": "Salamina",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 359,
+      "ciudad": "Samaná",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 360,
+      "ciudad": "San José",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 361,
+      "ciudad": "Supía",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 362,
+      "ciudad": "Victoria",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 363,
+      "ciudad": "Villamaría",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 364,
+      "ciudad": "Viterbo",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 365,
+      "ciudad": "Marquetalia",
+      "departamentoId": 9
+    },
+    {
+      "ciudadId": 366,
+      "ciudad": "Florencia",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 367,
+      "ciudad": "Albania",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 368,
+      "ciudad": "Curillo",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 369,
+      "ciudad": "El Doncello",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 370,
+      "ciudad": "El Paujil",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 371,
+      "ciudad": "Morelia",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 372,
+      "ciudad": "Puerto Rico",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 373,
+      "ciudad": "Solano",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 374,
+      "ciudad": "Solita",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 375,
+      "ciudad": "Valparaíso",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 376,
+      "ciudad": "San José del Fragua",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 377,
+      "ciudad": "Belén de Los Andaquies",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 378,
+      "ciudad": "Cartagena del Chairá",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 379,
+      "ciudad": "Milán",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 380,
+      "ciudad": "La Montañita",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 381,
+      "ciudad": "San Vicente del Caguán",
+      "departamentoId": 10
+    },
+    {
+      "ciudadId": 382,
+      "ciudad": "Yopal",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 383,
+      "ciudad": "Aguazul",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 384,
+      "ciudad": "Chámeza",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 385,
+      "ciudad": "Hato Corozal",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 386,
+      "ciudad": "La Salina",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 387,
+      "ciudad": "Monterrey",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 388,
+      "ciudad": "Pore",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 389,
+      "ciudad": "Recetor",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 390,
+      "ciudad": "Sabanalarga",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 391,
+      "ciudad": "Sácama",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 392,
+      "ciudad": "Tauramena",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 393,
+      "ciudad": "Trinidad",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 394,
+      "ciudad": "Villanueva",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 395,
+      "ciudad": "San Luis de Gaceno",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 396,
+      "ciudad": "Paz de Ariporo",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 397,
+      "ciudad": "Nunchía",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 398,
+      "ciudad": "Maní",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 399,
+      "ciudad": "Támara",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 400,
+      "ciudad": "Orocué",
+      "departamentoId": 11
+    },
+    {
+      "ciudadId": 401,
+      "ciudad": "Popayán",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 402,
+      "ciudad": "Almaguer",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 403,
+      "ciudad": "Argelia",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 404,
+      "ciudad": "Balboa",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 405,
+      "ciudad": "Bolívar",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 406,
+      "ciudad": "Buenos Aires",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 407,
+      "ciudad": "Cajibío",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 408,
+      "ciudad": "Caldono",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 409,
+      "ciudad": "Caloto",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 410,
+      "ciudad": "Corinto",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 411,
+      "ciudad": "El Tambo",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 412,
+      "ciudad": "Florencia",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 413,
+      "ciudad": "Guachené",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 414,
+      "ciudad": "Guapi",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 415,
+      "ciudad": "Inzá",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 416,
+      "ciudad": "Jambaló",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 417,
+      "ciudad": "La Sierra",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 418,
+      "ciudad": "La Vega",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 419,
+      "ciudad": "López",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 420,
+      "ciudad": "Mercaderes",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 421,
+      "ciudad": "Miranda",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 422,
+      "ciudad": "Morales",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 423,
+      "ciudad": "Padilla",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 424,
+      "ciudad": "Patía",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 425,
+      "ciudad": "Piamonte",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 426,
+      "ciudad": "Piendamó",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 427,
+      "ciudad": "Puerto Tejada",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 428,
+      "ciudad": "Puracé",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 429,
+      "ciudad": "Rosas",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 430,
+      "ciudad": "Santa Rosa",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 431,
+      "ciudad": "Silvia",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 432,
+      "ciudad": "Sotara",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 433,
+      "ciudad": "Suárez",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 434,
+      "ciudad": "Sucre",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 435,
+      "ciudad": "Timbío",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 436,
+      "ciudad": "Timbiquí",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 437,
+      "ciudad": "Toribio",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 438,
+      "ciudad": "Totoró",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 439,
+      "ciudad": "Villa Rica",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 440,
+      "ciudad": "Santander de Quilichao",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 441,
+      "ciudad": "San Sebastián",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 442,
+      "ciudad": "Páez",
+      "departamentoId": 12
+    },
+    {
+      "ciudadId": 443,
+      "ciudad": "Valledupar",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 444,
+      "ciudad": "Aguachica",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 445,
+      "ciudad": "Agustín Codazzi",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 446,
+      "ciudad": "Astrea",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 447,
+      "ciudad": "Becerril",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 448,
+      "ciudad": "Bosconia",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 449,
+      "ciudad": "Chimichagua",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 450,
+      "ciudad": "Chiriguaná",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 451,
+      "ciudad": "Curumaní",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 452,
+      "ciudad": "El Copey",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 453,
+      "ciudad": "El Paso",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 454,
+      "ciudad": "Gamarra",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 455,
+      "ciudad": "González",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 456,
+      "ciudad": "La Gloria",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 457,
+      "ciudad": "Manaure",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 458,
+      "ciudad": "Pailitas",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 459,
+      "ciudad": "Pelaya",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 460,
+      "ciudad": "Pueblo Bello",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 461,
+      "ciudad": "La Paz",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 462,
+      "ciudad": "San Alberto",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 463,
+      "ciudad": "San Diego",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 464,
+      "ciudad": "San Martín",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 465,
+      "ciudad": "Tamalameque",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 466,
+      "ciudad": "Río de Oro",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 467,
+      "ciudad": "La Jagua de Ibirico",
+      "departamentoId": 13
+    },
+    {
+      "ciudadId": 468,
+      "ciudad": "Istmina",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 469,
+      "ciudad": "Quibdó",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 470,
+      "ciudad": "Acandí",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 471,
+      "ciudad": "Alto Baudo",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 472,
+      "ciudad": "Atrato",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 473,
+      "ciudad": "Bagadó",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 474,
+      "ciudad": "Bahía Solano",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 475,
+      "ciudad": "Bajo Baudó",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 476,
+      "ciudad": "Bojaya",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 477,
+      "ciudad": "Cértegui",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 478,
+      "ciudad": "Condoto",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 479,
+      "ciudad": "Juradó",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 480,
+      "ciudad": "Lloró",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 481,
+      "ciudad": "Medio Atrato",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 482,
+      "ciudad": "Medio Baudó",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 483,
+      "ciudad": "Medio San Juan",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 484,
+      "ciudad": "Nóvita",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 485,
+      "ciudad": "Nuquí",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 486,
+      "ciudad": "Río Iro",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 487,
+      "ciudad": "Río Quito",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 488,
+      "ciudad": "Riosucio",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 489,
+      "ciudad": "Sipí",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 490,
+      "ciudad": "Unguía",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 491,
+      "ciudad": "El Litoral del San Juan",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 492,
+      "ciudad": "El Cantón del San Pablo",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 493,
+      "ciudad": "El Carmen de Atrato",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 494,
+      "ciudad": "San José del Palmar",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 495,
+      "ciudad": "Belén de Bajira",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 496,
+      "ciudad": "Carmen del Darien",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 497,
+      "ciudad": "Tadó",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 498,
+      "ciudad": "Unión Panamericana",
+      "departamentoId": 14
+    },
+    {
+      "ciudadId": 499,
+      "ciudad": "San Bernardo del Viento",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 500,
+      "ciudad": "Montería",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 501,
+      "ciudad": "Ayapel",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 502,
+      "ciudad": "Buenavista",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 503,
+      "ciudad": "Canalete",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 504,
+      "ciudad": "Cereté",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 505,
+      "ciudad": "Chimá",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 506,
+      "ciudad": "Chinú",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 507,
+      "ciudad": "Cotorra",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 508,
+      "ciudad": "Lorica",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 509,
+      "ciudad": "Los Córdobas",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 510,
+      "ciudad": "Momil",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 511,
+      "ciudad": "Moñitos",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 512,
+      "ciudad": "Planeta Rica",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 513,
+      "ciudad": "Pueblo Nuevo",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 514,
+      "ciudad": "Puerto Escondido",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 515,
+      "ciudad": "Purísima",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 516,
+      "ciudad": "Sahagún",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 517,
+      "ciudad": "San Andrés Sotavento",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 518,
+      "ciudad": "San Antero",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 519,
+      "ciudad": "San Pelayo",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 520,
+      "ciudad": "Tierralta",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 521,
+      "ciudad": "Tuchín",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 522,
+      "ciudad": "Valencia",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 523,
+      "ciudad": "San José de Uré",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 524,
+      "ciudad": "Ciénaga de Oro",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 525,
+      "ciudad": "San Carlos",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 526,
+      "ciudad": "Montelíbano",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 527,
+      "ciudad": "La Apartada",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 528,
+      "ciudad": "Puerto Libertador",
+      "departamentoId": 15
+    },
+    {
+      "ciudadId": 529,
+      "ciudad": "Anapoima",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 530,
+      "ciudad": "Arbeláez",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 531,
+      "ciudad": "Beltrán",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 532,
+      "ciudad": "Bituima",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 533,
+      "ciudad": "Bojacá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 534,
+      "ciudad": "Cabrera",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 535,
+      "ciudad": "Cachipay",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 536,
+      "ciudad": "Cajicá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 537,
+      "ciudad": "Caparrapí",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 538,
+      "ciudad": "Caqueza",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 539,
+      "ciudad": "Chaguaní",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 540,
+      "ciudad": "Chipaque",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 541,
+      "ciudad": "Choachí",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 542,
+      "ciudad": "Chocontá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 543,
+      "ciudad": "Cogua",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 544,
+      "ciudad": "Cota",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 545,
+      "ciudad": "Cucunubá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 546,
+      "ciudad": "El Colegio",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 547,
+      "ciudad": "El Rosal",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 548,
+      "ciudad": "Fomeque",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 549,
+      "ciudad": "Fosca",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 550,
+      "ciudad": "Funza",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 551,
+      "ciudad": "Fúquene",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 552,
+      "ciudad": "Gachala",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 553,
+      "ciudad": "Gachancipá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 554,
+      "ciudad": "Gachetá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 555,
+      "ciudad": "Girardot",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 556,
+      "ciudad": "Granada",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 557,
+      "ciudad": "Guachetá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 558,
+      "ciudad": "Guaduas",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 559,
+      "ciudad": "Guasca",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 560,
+      "ciudad": "Guataquí",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 561,
+      "ciudad": "Guatavita",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 562,
+      "ciudad": "Guayabetal",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 563,
+      "ciudad": "Gutiérrez",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 564,
+      "ciudad": "Jerusalén",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 565,
+      "ciudad": "Junín",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 566,
+      "ciudad": "La Calera",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 567,
+      "ciudad": "La Mesa",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 568,
+      "ciudad": "La Palma",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 569,
+      "ciudad": "La Peña",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 570,
+      "ciudad": "La Vega",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 571,
+      "ciudad": "Lenguazaque",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 572,
+      "ciudad": "Macheta",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 573,
+      "ciudad": "Madrid",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 574,
+      "ciudad": "Manta",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 575,
+      "ciudad": "Medina",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 576,
+      "ciudad": "Mosquera",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 577,
+      "ciudad": "Nariño",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 578,
+      "ciudad": "Nemocón",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 579,
+      "ciudad": "Nilo",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 580,
+      "ciudad": "Nimaima",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 581,
+      "ciudad": "Nocaima",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 582,
+      "ciudad": "Venecia",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 583,
+      "ciudad": "Pacho",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 584,
+      "ciudad": "Paime",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 585,
+      "ciudad": "Pandi",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 586,
+      "ciudad": "Paratebueno",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 587,
+      "ciudad": "Pasca",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 588,
+      "ciudad": "Puerto Salgar",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 589,
+      "ciudad": "Pulí",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 590,
+      "ciudad": "Quebradanegra",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 591,
+      "ciudad": "Quetame",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 592,
+      "ciudad": "Quipile",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 593,
+      "ciudad": "Apulo",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 594,
+      "ciudad": "Ricaurte",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 595,
+      "ciudad": "San Bernardo",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 596,
+      "ciudad": "San Cayetano",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 597,
+      "ciudad": "San Francisco",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 598,
+      "ciudad": "Sesquilé",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 599,
+      "ciudad": "Sibaté",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 600,
+      "ciudad": "Silvania",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 601,
+      "ciudad": "Simijaca",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 602,
+      "ciudad": "Soacha",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 603,
+      "ciudad": "Subachoque",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 604,
+      "ciudad": "Suesca",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 605,
+      "ciudad": "Supatá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 606,
+      "ciudad": "Susa",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 607,
+      "ciudad": "Sutatausa",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 608,
+      "ciudad": "Tabio",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 609,
+      "ciudad": "Tausa",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 610,
+      "ciudad": "Tena",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 611,
+      "ciudad": "Tenjo",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 612,
+      "ciudad": "Tibacuy",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 613,
+      "ciudad": "Tibirita",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 614,
+      "ciudad": "Tocaima",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 615,
+      "ciudad": "Tocancipá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 616,
+      "ciudad": "Topaipí",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 617,
+      "ciudad": "Ubalá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 618,
+      "ciudad": "Ubaque",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 619,
+      "ciudad": "Une",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 620,
+      "ciudad": "Útica",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 621,
+      "ciudad": "Vianí",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 622,
+      "ciudad": "Villagómez",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 623,
+      "ciudad": "Villapinzón",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 624,
+      "ciudad": "Villeta",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 625,
+      "ciudad": "Viotá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 626,
+      "ciudad": "Zipacón",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 627,
+      "ciudad": "San Juan de Río Seco",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 628,
+      "ciudad": "Villa de San Diego de Ubate",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 629,
+      "ciudad": "Guayabal de Siquima",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 630,
+      "ciudad": "San Antonio del Tequendama",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 631,
+      "ciudad": "Agua de Dios",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 632,
+      "ciudad": "Carmen de Carupa",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 633,
+      "ciudad": "Vergara",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 634,
+      "ciudad": "Albán",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 635,
+      "ciudad": "Anolaima",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 636,
+      "ciudad": "Chía",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 637,
+      "ciudad": "El Peñón",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 638,
+      "ciudad": "Sopó",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 639,
+      "ciudad": "Gama",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 640,
+      "ciudad": "Sasaima",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 641,
+      "ciudad": "Yacopí",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 642,
+      "ciudad": "Fusagasugá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 643,
+      "ciudad": "Zipaquirá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 644,
+      "ciudad": "Facatativá",
+      "departamentoId": 16
+    },
+    {
+      "ciudadId": 645,
+      "ciudad": "Inírida",
+      "departamentoId": 17
+    },
+    {
+      "ciudadId": 646,
+      "ciudad": "Barranco Minas",
+      "departamentoId": 17
+    },
+    {
+      "ciudadId": 647,
+      "ciudad": "Mapiripana",
+      "departamentoId": 17
+    },
+    {
+      "ciudadId": 648,
+      "ciudad": "San Felipe",
+      "departamentoId": 17
+    },
+    {
+      "ciudadId": 649,
+      "ciudad": "Puerto Colombia",
+      "departamentoId": 17
+    },
+    {
+      "ciudadId": 650,
+      "ciudad": "La Guadalupe",
+      "departamentoId": 17
+    },
+    {
+      "ciudadId": 651,
+      "ciudad": "Cacahual",
+      "departamentoId": 17
+    },
+    {
+      "ciudadId": 652,
+      "ciudad": "Pana Pana",
+      "departamentoId": 17
+    },
+    {
+      "ciudadId": 653,
+      "ciudad": "Morichal",
+      "departamentoId": 17
+    },
+    {
+      "ciudadId": 654,
+      "ciudad": "Calamar",
+      "departamentoId": 18
+    },
+    {
+      "ciudadId": 655,
+      "ciudad": "San José del Guaviare",
+      "departamentoId": 18
+    },
+    {
+      "ciudadId": 656,
+      "ciudad": "Miraflores",
+      "departamentoId": 18
+    },
+    {
+      "ciudadId": 657,
+      "ciudad": "El Retorno",
+      "departamentoId": 18
+    },
+    {
+      "ciudadId": 658,
+      "ciudad": "Neiva",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 659,
+      "ciudad": "Acevedo",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 660,
+      "ciudad": "Agrado",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 661,
+      "ciudad": "Aipe",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 662,
+      "ciudad": "Algeciras",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 663,
+      "ciudad": "Altamira",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 664,
+      "ciudad": "Baraya",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 665,
+      "ciudad": "Campoalegre",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 666,
+      "ciudad": "Colombia",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 667,
+      "ciudad": "Elías",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 668,
+      "ciudad": "Garzón",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 669,
+      "ciudad": "Gigante",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 670,
+      "ciudad": "Guadalupe",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 671,
+      "ciudad": "Hobo",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 672,
+      "ciudad": "Iquira",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 673,
+      "ciudad": "Isnos",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 674,
+      "ciudad": "La Argentina",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 675,
+      "ciudad": "La Plata",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 676,
+      "ciudad": "Nátaga",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 677,
+      "ciudad": "Oporapa",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 678,
+      "ciudad": "Paicol",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 679,
+      "ciudad": "Palermo",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 680,
+      "ciudad": "Palestina",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 681,
+      "ciudad": "Pital",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 682,
+      "ciudad": "Pitalito",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 683,
+      "ciudad": "Rivera",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 684,
+      "ciudad": "Saladoblanco",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 685,
+      "ciudad": "Santa María",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 686,
+      "ciudad": "Suaza",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 687,
+      "ciudad": "Tarqui",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 688,
+      "ciudad": "Tesalia",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 689,
+      "ciudad": "Tello",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 690,
+      "ciudad": "Teruel",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 691,
+      "ciudad": "Timaná",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 692,
+      "ciudad": "Villavieja",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 693,
+      "ciudad": "Yaguará",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 694,
+      "ciudad": "San Agustín",
+      "departamentoId": 19
+    },
+    {
+      "ciudadId": 695,
+      "ciudad": "Riohacha",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 696,
+      "ciudad": "Albania",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 697,
+      "ciudad": "Barrancas",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 698,
+      "ciudad": "Dibula",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 699,
+      "ciudad": "Distracción",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 700,
+      "ciudad": "El Molino",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 701,
+      "ciudad": "Fonseca",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 702,
+      "ciudad": "Hatonuevo",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 703,
+      "ciudad": "Maicao",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 704,
+      "ciudad": "Manaure",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 705,
+      "ciudad": "Uribia",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 706,
+      "ciudad": "Urumita",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 707,
+      "ciudad": "Villanueva",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 708,
+      "ciudad": "La Jagua del Pilar",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 709,
+      "ciudad": "San Juan del Cesar",
+      "departamentoId": 20
+    },
+    {
+      "ciudadId": 710,
+      "ciudad": "Santa Marta",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 711,
+      "ciudad": "Algarrobo",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 712,
+      "ciudad": "Aracataca",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 713,
+      "ciudad": "Ariguaní",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 714,
+      "ciudad": "Cerro San Antonio",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 715,
+      "ciudad": "Chivolo",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 716,
+      "ciudad": "Concordia",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 717,
+      "ciudad": "El Banco",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 718,
+      "ciudad": "El Piñon",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 719,
+      "ciudad": "El Retén",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 720,
+      "ciudad": "Fundación",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 721,
+      "ciudad": "Guamal",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 722,
+      "ciudad": "Nueva Granada",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 723,
+      "ciudad": "Pedraza",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 724,
+      "ciudad": "Pivijay",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 725,
+      "ciudad": "Plato",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 726,
+      "ciudad": "Remolino",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 727,
+      "ciudad": "Salamina",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 728,
+      "ciudad": "San Zenón",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 729,
+      "ciudad": "Santa Ana",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 730,
+      "ciudad": "Sitionuevo",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 731,
+      "ciudad": "Tenerife",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 732,
+      "ciudad": "Zapayán",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 733,
+      "ciudad": "Zona Bananera",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 734,
+      "ciudad": "San Sebastián de Buenavista",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 735,
+      "ciudad": "Sabanas de San Angel",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 736,
+      "ciudad": "Pijiño del Carmen",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 737,
+      "ciudad": "Santa Bárbara de Pinto",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 738,
+      "ciudad": "Pueblo Viejo",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 739,
+      "ciudad": "Ciénaga",
+      "departamentoId": 21
+    },
+    {
+      "ciudadId": 740,
+      "ciudad": "Uribe",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 741,
+      "ciudad": "Villavicencio",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 742,
+      "ciudad": "Acacias",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 743,
+      "ciudad": "Cabuyaro",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 744,
+      "ciudad": "Cubarral",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 745,
+      "ciudad": "Cumaral",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 746,
+      "ciudad": "El Calvario",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 747,
+      "ciudad": "El Castillo",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 748,
+      "ciudad": "El Dorado",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 749,
+      "ciudad": "Granada",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 750,
+      "ciudad": "Guamal",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 751,
+      "ciudad": "Mapiripán",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 752,
+      "ciudad": "Mesetas",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 753,
+      "ciudad": "La Macarena",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 754,
+      "ciudad": "Lejanías",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 755,
+      "ciudad": "Puerto Concordia",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 756,
+      "ciudad": "Puerto Gaitán",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 757,
+      "ciudad": "Puerto López",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 758,
+      "ciudad": "Puerto Lleras",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 759,
+      "ciudad": "Puerto Rico",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 760,
+      "ciudad": "Restrepo",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 761,
+      "ciudad": "San Juanito",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 762,
+      "ciudad": "San Martín",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 763,
+      "ciudad": "Vista Hermosa",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 764,
+      "ciudad": "Barranca de Upía",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 765,
+      "ciudad": "Fuente de Oro",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 766,
+      "ciudad": "San Carlos de Guaroa",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 767,
+      "ciudad": "San Juan de Arama",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 768,
+      "ciudad": "Castilla la Nueva",
+      "departamentoId": 22
+    },
+    {
+      "ciudadId": 769,
+      "ciudad": "Santacruz",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 770,
+      "ciudad": "Pasto",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 771,
+      "ciudad": "Albán",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 772,
+      "ciudad": "Aldana",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 773,
+      "ciudad": "Ancuyá",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 774,
+      "ciudad": "Barbacoas",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 775,
+      "ciudad": "Colón",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 776,
+      "ciudad": "Consaca",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 777,
+      "ciudad": "Contadero",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 778,
+      "ciudad": "Córdoba",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 779,
+      "ciudad": "Cuaspud",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 780,
+      "ciudad": "Cumbal",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 781,
+      "ciudad": "Cumbitara",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 782,
+      "ciudad": "El Charco",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 783,
+      "ciudad": "El Peñol",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 784,
+      "ciudad": "El Rosario",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 785,
+      "ciudad": "El Tambo",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 786,
+      "ciudad": "Funes",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 787,
+      "ciudad": "Guachucal",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 788,
+      "ciudad": "Guaitarilla",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 789,
+      "ciudad": "Gualmatán",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 790,
+      "ciudad": "Iles",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 791,
+      "ciudad": "Imués",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 792,
+      "ciudad": "Ipiales",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 793,
+      "ciudad": "La Cruz",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 794,
+      "ciudad": "La Florida",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 795,
+      "ciudad": "La Llanada",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 796,
+      "ciudad": "La Tola",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 797,
+      "ciudad": "La Unión",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 798,
+      "ciudad": "Leiva",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 799,
+      "ciudad": "Linares",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 800,
+      "ciudad": "Los Andes",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 801,
+      "ciudad": "Magüí",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 802,
+      "ciudad": "Mallama",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 803,
+      "ciudad": "Mosquera",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 804,
+      "ciudad": "Nariño",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 805,
+      "ciudad": "Olaya Herrera",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 806,
+      "ciudad": "Ospina",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 807,
+      "ciudad": "Francisco Pizarro",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 808,
+      "ciudad": "Policarpa",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 809,
+      "ciudad": "Potosí",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 810,
+      "ciudad": "Providencia",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 811,
+      "ciudad": "Puerres",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 812,
+      "ciudad": "Pupiales",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 813,
+      "ciudad": "Ricaurte",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 814,
+      "ciudad": "Roberto Payán",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 815,
+      "ciudad": "Samaniego",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 816,
+      "ciudad": "Sandoná",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 817,
+      "ciudad": "San Bernardo",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 818,
+      "ciudad": "San Lorenzo",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 819,
+      "ciudad": "San Pablo",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 820,
+      "ciudad": "Santa Bárbara",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 821,
+      "ciudad": "Sapuyes",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 822,
+      "ciudad": "Taminango",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 823,
+      "ciudad": "Tangua",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 824,
+      "ciudad": "Túquerres",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 825,
+      "ciudad": "Yacuanquer",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 826,
+      "ciudad": "San Pedro de Cartago",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 827,
+      "ciudad": "El Tablón de Gómez",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 828,
+      "ciudad": "Buesaco",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 829,
+      "ciudad": "San Andrés de Tumaco",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 830,
+      "ciudad": "Belén",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 831,
+      "ciudad": "Chachagüí",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 832,
+      "ciudad": "Arboleda",
+      "departamentoId": 23
+    },
+    {
+      "ciudadId": 833,
+      "ciudad": "Silos",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 834,
+      "ciudad": "Cácota",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 835,
+      "ciudad": "Toledo",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 836,
+      "ciudad": "Mutiscua",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 837,
+      "ciudad": "El Zulia",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 838,
+      "ciudad": "Salazar",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 839,
+      "ciudad": "Cucutilla",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 840,
+      "ciudad": "Puerto Santander",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 841,
+      "ciudad": "Gramalote",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 842,
+      "ciudad": "El Tarra",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 843,
+      "ciudad": "Teorama",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 844,
+      "ciudad": "Arboledas",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 845,
+      "ciudad": "Lourdes",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 846,
+      "ciudad": "Bochalema",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 847,
+      "ciudad": "Convención",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 848,
+      "ciudad": "Hacarí",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 849,
+      "ciudad": "Herrán",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 850,
+      "ciudad": "Tibú",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 851,
+      "ciudad": "San Cayetano",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 852,
+      "ciudad": "San Calixto",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 853,
+      "ciudad": "La Playa",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 854,
+      "ciudad": "Chinácota",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 855,
+      "ciudad": "Ragonvalia",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 856,
+      "ciudad": "La Esperanza",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 857,
+      "ciudad": "Villa del Rosario",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 858,
+      "ciudad": "Chitagá",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 859,
+      "ciudad": "Sardinata",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 860,
+      "ciudad": "Abrego",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 861,
+      "ciudad": "Los Patios",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 862,
+      "ciudad": "Ocaña",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 863,
+      "ciudad": "Bucarasica",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 864,
+      "ciudad": "Santiago",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 865,
+      "ciudad": "Labateca",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 866,
+      "ciudad": "Cachirá",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 867,
+      "ciudad": "Villa Caro",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 868,
+      "ciudad": "Durania",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 869,
+      "ciudad": "Pamplona",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 870,
+      "ciudad": "Pamplonita",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 871,
+      "ciudad": "Cúcuta",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 872,
+      "ciudad": "El Carmen",
+      "departamentoId": 24
+    },
+    {
+      "ciudadId": 873,
+      "ciudad": "Mocoa",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 874,
+      "ciudad": "Colón",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 875,
+      "ciudad": "Orito",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 876,
+      "ciudad": "Puerto Caicedo",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 877,
+      "ciudad": "Puerto Guzmán",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 878,
+      "ciudad": "Leguízamo",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 879,
+      "ciudad": "Sibundoy",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 880,
+      "ciudad": "San Francisco",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 881,
+      "ciudad": "San Miguel",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 882,
+      "ciudad": "Santiago",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 883,
+      "ciudad": "Valle de Guamez",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 884,
+      "ciudad": "Puerto Asís",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 885,
+      "ciudad": "Villagarzón",
+      "departamentoId": 25
+    },
+    {
+      "ciudadId": 886,
+      "ciudad": "Armenia",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 887,
+      "ciudad": "Buenavista",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 888,
+      "ciudad": "Circasia",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 889,
+      "ciudad": "Córdoba",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 890,
+      "ciudad": "Filandia",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 891,
+      "ciudad": "La Tebaida",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 892,
+      "ciudad": "Montenegro",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 893,
+      "ciudad": "Pijao",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 894,
+      "ciudad": "Quimbaya",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 895,
+      "ciudad": "Salento",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 896,
+      "ciudad": "Calarcá",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 897,
+      "ciudad": "Génova",
+      "departamentoId": 26
+    },
+    {
+      "ciudadId": 898,
+      "ciudad": "Pereira",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 899,
+      "ciudad": "Apía",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 900,
+      "ciudad": "Balboa",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 901,
+      "ciudad": "Dosquebradas",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 902,
+      "ciudad": "Guática",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 903,
+      "ciudad": "La Celia",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 904,
+      "ciudad": "La Virginia",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 905,
+      "ciudad": "Marsella",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 906,
+      "ciudad": "Mistrató",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 907,
+      "ciudad": "Pueblo Rico",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 908,
+      "ciudad": "Quinchía",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 909,
+      "ciudad": "Santuario",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 910,
+      "ciudad": "Santa Rosa de Cabal",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 911,
+      "ciudad": "Belén de Umbría",
+      "departamentoId": 27
+    },
+    {
+      "ciudadId": 912,
+      "ciudad": "Puerto Wilches",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 913,
+      "ciudad": "Puerto Parra",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 914,
+      "ciudad": "Bucaramanga",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 915,
+      "ciudad": "Aguada",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 916,
+      "ciudad": "Albania",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 917,
+      "ciudad": "Aratoca",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 918,
+      "ciudad": "Barbosa",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 919,
+      "ciudad": "Barichara",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 920,
+      "ciudad": "Barrancabermeja",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 921,
+      "ciudad": "Betulia",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 922,
+      "ciudad": "Bolívar",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 923,
+      "ciudad": "Cabrera",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 924,
+      "ciudad": "California",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 925,
+      "ciudad": "Carcasí",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 926,
+      "ciudad": "Cepitá",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 927,
+      "ciudad": "Cerrito",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 928,
+      "ciudad": "Charalá",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 929,
+      "ciudad": "Charta",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 930,
+      "ciudad": "Chipatá",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 931,
+      "ciudad": "Cimitarra",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 932,
+      "ciudad": "Concepción",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 933,
+      "ciudad": "Confines",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 934,
+      "ciudad": "Contratación",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 935,
+      "ciudad": "Coromoro",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 936,
+      "ciudad": "Curití",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 937,
+      "ciudad": "El Guacamayo",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 938,
+      "ciudad": "El Playón",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 939,
+      "ciudad": "Encino",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 940,
+      "ciudad": "Enciso",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 941,
+      "ciudad": "Florián",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 942,
+      "ciudad": "Floridablanca",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 943,
+      "ciudad": "Galán",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 944,
+      "ciudad": "Gambita",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 945,
+      "ciudad": "Girón",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 946,
+      "ciudad": "Guaca",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 947,
+      "ciudad": "Guadalupe",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 948,
+      "ciudad": "Guapotá",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 949,
+      "ciudad": "Guavatá",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 950,
+      "ciudad": "Güepsa",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 951,
+      "ciudad": "Jesús María",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 952,
+      "ciudad": "Jordán",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 953,
+      "ciudad": "La Belleza",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 954,
+      "ciudad": "Landázuri",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 955,
+      "ciudad": "La Paz",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 956,
+      "ciudad": "Lebríja",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 957,
+      "ciudad": "Los Santos",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 958,
+      "ciudad": "Macaravita",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 959,
+      "ciudad": "Málaga",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 960,
+      "ciudad": "Matanza",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 961,
+      "ciudad": "Mogotes",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 962,
+      "ciudad": "Molagavita",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 963,
+      "ciudad": "Ocamonte",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 964,
+      "ciudad": "Oiba",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 965,
+      "ciudad": "Onzaga",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 966,
+      "ciudad": "Palmar",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 967,
+      "ciudad": "Páramo",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 968,
+      "ciudad": "Piedecuesta",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 969,
+      "ciudad": "Pinchote",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 970,
+      "ciudad": "Puente Nacional",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 971,
+      "ciudad": "Rionegro",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 972,
+      "ciudad": "San Andrés",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 973,
+      "ciudad": "San Gil",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 974,
+      "ciudad": "San Joaquín",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 975,
+      "ciudad": "San Miguel",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 976,
+      "ciudad": "Santa Bárbara",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 977,
+      "ciudad": "Simacota",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 978,
+      "ciudad": "Socorro",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 979,
+      "ciudad": "Suaita",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 980,
+      "ciudad": "Sucre",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 981,
+      "ciudad": "Suratá",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 982,
+      "ciudad": "Tona",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 983,
+      "ciudad": "Vélez",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 984,
+      "ciudad": "Vetas",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 985,
+      "ciudad": "Villanueva",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 986,
+      "ciudad": "Zapatoca",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 987,
+      "ciudad": "Palmas del Socorro",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 988,
+      "ciudad": "San Vicente de Chucurí",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 989,
+      "ciudad": "San José de Miranda",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 990,
+      "ciudad": "Santa Helena del Opón",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 991,
+      "ciudad": "Sabana de Torres",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 992,
+      "ciudad": "El Carmen de Chucurí",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 993,
+      "ciudad": "Valle de San José",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 994,
+      "ciudad": "San Benito",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 995,
+      "ciudad": "Hato",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 996,
+      "ciudad": "Chimá",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 997,
+      "ciudad": "Capitanejo",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 998,
+      "ciudad": "El Peñón",
+      "departamentoId": 28
+    },
+    {
+      "ciudadId": 999,
+      "ciudad": "Sincelejo",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1000,
+      "ciudad": "Buenavista",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1001,
+      "ciudad": "Caimito",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1002,
+      "ciudad": "Coloso",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1003,
+      "ciudad": "Coveñas",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1004,
+      "ciudad": "Chalán",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1005,
+      "ciudad": "El Roble",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1006,
+      "ciudad": "Galeras",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1007,
+      "ciudad": "Guaranda",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1008,
+      "ciudad": "La Unión",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1009,
+      "ciudad": "Los Palmitos",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1010,
+      "ciudad": "Majagual",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1011,
+      "ciudad": "Morroa",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1012,
+      "ciudad": "Ovejas",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1013,
+      "ciudad": "Palmito",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1014,
+      "ciudad": "San Benito Abad",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1015,
+      "ciudad": "San Marcos",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1016,
+      "ciudad": "San Onofre",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1017,
+      "ciudad": "San Pedro",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1018,
+      "ciudad": "Sucre",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1019,
+      "ciudad": "Tolú Viejo",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1020,
+      "ciudad": "San Luis de Sincé",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1021,
+      "ciudad": "San Juan de Betulia",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1022,
+      "ciudad": "Santiago de Tolú",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1023,
+      "ciudad": "Sampués",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1024,
+      "ciudad": "Corozal",
+      "departamentoId": 29
+    },
+    {
+      "ciudadId": 1025,
+      "ciudad": "Alpujarra",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1026,
+      "ciudad": "Alvarado",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1027,
+      "ciudad": "Ambalema",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1028,
+      "ciudad": "Armero",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1029,
+      "ciudad": "Ataco",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1030,
+      "ciudad": "Cajamarca",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1031,
+      "ciudad": "Chaparral",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1032,
+      "ciudad": "Coello",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1033,
+      "ciudad": "Coyaima",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1034,
+      "ciudad": "Cunday",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1035,
+      "ciudad": "Dolores",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1036,
+      "ciudad": "Espinal",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1037,
+      "ciudad": "Falan",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1038,
+      "ciudad": "Flandes",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1039,
+      "ciudad": "Fresno",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1040,
+      "ciudad": "Guamo",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1041,
+      "ciudad": "Herveo",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1042,
+      "ciudad": "Honda",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1043,
+      "ciudad": "Icononzo",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1044,
+      "ciudad": "Mariquita",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1045,
+      "ciudad": "Melgar",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1046,
+      "ciudad": "Murillo",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1047,
+      "ciudad": "Natagaima",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1048,
+      "ciudad": "Ortega",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1049,
+      "ciudad": "Palocabildo",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1050,
+      "ciudad": "Piedras",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1051,
+      "ciudad": "Planadas",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1052,
+      "ciudad": "Prado",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1053,
+      "ciudad": "Purificación",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1054,
+      "ciudad": "Rio Blanco",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1055,
+      "ciudad": "Roncesvalles",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1056,
+      "ciudad": "Rovira",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1057,
+      "ciudad": "Saldaña",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1058,
+      "ciudad": "Santa Isabel",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1059,
+      "ciudad": "Venadillo",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1060,
+      "ciudad": "Villahermosa",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1061,
+      "ciudad": "Villarrica",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1062,
+      "ciudad": "Valle de San Juan",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1063,
+      "ciudad": "Carmen de Apicala",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1064,
+      "ciudad": "San Luis",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1065,
+      "ciudad": "San Antonio",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1066,
+      "ciudad": "Casabianca",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1067,
+      "ciudad": "Anzoátegui",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1068,
+      "ciudad": "Ibagué",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1069,
+      "ciudad": "Líbano",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1070,
+      "ciudad": "Lérida",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1071,
+      "ciudad": "Suárez",
+      "departamentoId": 30
+    },
+    {
+      "ciudadId": 1072,
+      "ciudad": "El Dovio",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1073,
+      "ciudad": "Roldanillo",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1074,
+      "ciudad": "Argelia",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1075,
+      "ciudad": "Sevilla",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1076,
+      "ciudad": "Zarzal",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1077,
+      "ciudad": "El Cerrito",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1078,
+      "ciudad": "Cartago",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1079,
+      "ciudad": "Caicedonia",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1080,
+      "ciudad": "El Cairo",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1081,
+      "ciudad": "La Unión",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1082,
+      "ciudad": "Restrepo",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1083,
+      "ciudad": "Dagua",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1084,
+      "ciudad": "Guacarí",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1085,
+      "ciudad": "Ansermanuevo",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1086,
+      "ciudad": "Bugalagrande",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1087,
+      "ciudad": "La Victoria",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1088,
+      "ciudad": "Ginebra",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1089,
+      "ciudad": "Yumbo",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1090,
+      "ciudad": "Obando",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1091,
+      "ciudad": "Bolívar",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1092,
+      "ciudad": "Cali",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1093,
+      "ciudad": "San Pedro",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1094,
+      "ciudad": "Guadalajara de Buga",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1095,
+      "ciudad": "Calima",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1096,
+      "ciudad": "Andalucía",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1097,
+      "ciudad": "Pradera",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1098,
+      "ciudad": "Yotoco",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1099,
+      "ciudad": "Palmira",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1100,
+      "ciudad": "Riofrío",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1101,
+      "ciudad": "Alcalá",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1102,
+      "ciudad": "Versalles",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1103,
+      "ciudad": "El Águila",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1104,
+      "ciudad": "Toro",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1105,
+      "ciudad": "Candelaria",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1106,
+      "ciudad": "La Cumbre",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1107,
+      "ciudad": "Ulloa",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1108,
+      "ciudad": "Trujillo",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1109,
+      "ciudad": "Vijes",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1110,
+      "ciudad": "Tuluá",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1111,
+      "ciudad": "Florida",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1112,
+      "ciudad": "Jamundí",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1113,
+      "ciudad": "Buenaventura",
+      "departamentoId": 31
+    },
+    {
+      "ciudadId": 1114,
+      "ciudad": "Mitú",
+      "departamentoId": 32
+    },
+    {
+      "ciudadId": 1115,
+      "ciudad": "Carurú",
+      "departamentoId": 32
+    },
+    {
+      "ciudadId": 1116,
+      "ciudad": "Taraira",
+      "departamentoId": 32
+    },
+    {
+      "ciudadId": 1117,
+      "ciudad": "Papunahua",
+      "departamentoId": 32
+    },
+    {
+      "ciudadId": 1118,
+      "ciudad": "Yavaraté",
+      "departamentoId": 32
+    },
+    {
+      "ciudadId": 1119,
+      "ciudad": "Pacoa",
+      "departamentoId": 32
+    },
+    {
+      "ciudadId": 1120,
+      "ciudad": "Puerto Carreño",
+      "departamentoId": 33
+    },
+    {
+      "ciudadId": 1121,
+      "ciudad": "La Primavera",
+      "departamentoId": 33
+    },
+    {
+      "ciudadId": 1122,
+      "ciudad": "Santa Rosalía",
+      "departamentoId": 33
+    },
+    {
+      "ciudadId": 1123,
+      "ciudad": "Cumaribo",
+      "departamentoId": 33
+    }
+  ]
+}

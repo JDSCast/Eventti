@@ -1,0 +1,92 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* h1 {
+  font-size: 7vmin; 
+  transition: all 0.5s;
+}
+h2 {
+  font-size: clamp(1rem, max(3.5vmax,1rem), 2.5rem);
+  transition: all 0.5s;
+}
+p {
+  font-size: clamp(1rem, 2vw, 2.5rem);
+  transition: all 0.5s;
+} */
+
+.bgIcon{
+  position: absolute;
+  left: -20%;
+  top:-20%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  filter: blur(300px);
+}
+
+a{
+  margin: 0
+}
