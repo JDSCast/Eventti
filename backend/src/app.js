@@ -7,6 +7,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cookieParser());
+app.set('trust proxy', 1);
 
 app.use(cors({
     origin : process.env.URL_CLIENT,// Permitir solicitudes desde el frontend
