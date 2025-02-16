@@ -19,9 +19,11 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
+        with:
+          working-directory: frontend
 
-      - name: Folder source
-        run: cd frontend
+      # - name: Folder source
+      #   run: cd frontend
 
       - name: Build project
         run: npm run build
