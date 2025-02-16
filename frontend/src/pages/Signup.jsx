@@ -82,7 +82,7 @@ export default function Signup() {
         >
           <CardMedia
             component="img"
-            image="/public/ticket-svgrepo-com.svg"
+            image="./ticket-svgrepo-com.svg"
             alt="Signup icon"
             sx={{
               objectFit: "contain",

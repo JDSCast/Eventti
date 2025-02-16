@@ -5,27 +5,27 @@ import Clock from "./Clock";
 
 const images = [
   {
-    img: "/crowd.jpg",
+    img: "./crowd.jpg",
     title: "Multitud de un concierto de DJ",
   },
   {
-    img: "/music.jpg",
+    img: "./music.jpg",
     title: "Evento de música acústica",
   },
   {
-    img: "/marathon.jpg",
+    img: "./marathon.jpg",
     title: "Personas corriendo una maratón",
   },
   {
-    img: "/students.jpg",
+    img: "./students.jpg",
     title: "Estudiantes en una clase de arte",
   },
   {
-    img: "/carnival.jpg",
+    img: "./carnival.jpg",
     title: "Desfile de carnaval local",
   },
   {
-    img: "/couple.jpg",
+    img: "./couple.jpg",
     title: "Pareja de bodas",
   },
 ];

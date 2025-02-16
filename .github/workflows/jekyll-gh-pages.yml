@@ -5,8 +5,8 @@ on:
     branches:
       - deploy
 defaults:
-        run:
-          working-directory: ./frontend
+  run:
+    working-directory: ./frontend
 jobs:
   build:
     name: Build
@@ -23,6 +23,11 @@ jobs:
         uses: bahmutov/npm-install@v1
         with:
           working-directory: frontend
+
+      - name: Add Environment Variables
+        env:
+          VITE_URL_SERVER: ${{ secrets.VITE_URL_SERVER }}
+        run: echo "Environment variables configured."
 
       - name: Build project
         run: npm run build

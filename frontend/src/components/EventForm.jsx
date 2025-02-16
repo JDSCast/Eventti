@@ -181,7 +181,7 @@ export default function EventForm({
     >
       <CardMedia
         component="img"
-        image="/event-edit-svgrepo-com.svg"
+        image="./event-edit-svgrepo-com.svg"
         alt="Signup icon"
         sx={{
           objectFit: "contain",
