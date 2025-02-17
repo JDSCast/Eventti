@@ -42,22 +42,22 @@ exports.setNewTokens = async (res, user) => {
     maxAge: (2 * 24 * 3600 * 1000), //2dias
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
-    sameSite: 'None', 
-    partitioned: true
+    sameSite: process.env.NODE_ENV === "production" ? 'None' : 'Lax',
+    partitioned: process.env.NODE_ENV === "production"
   });
-  res.cookie("referenceSession", true, {
-    maxAge: (2 * 24 * 3600 * 1000), //2dias
-    httpOnly: false,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: 'None', 
-    partitioned: true
-  });
+  // res.cookie("referenceSession", true, {
+  //   maxAge: (2 * 24 * 3600 * 1000), //2dias
+  //   httpOnly: false,
+  //   secure: process.env.NODE_ENV === "production",
+  //   sameSite: 'None', 
+  //   partitioned: true
+  // });
   res.cookie("accessToken", user.getJwtToken("3h"), {
     maxAge: (3 * 3600 * 1000), //3horas
     httpOnly: false,
     secure: process.env.NODE_ENV === "production",
-    sameSite: 'None', 
-    partitioned: true 
+    sameSite: process.env.NODE_ENV === "production" ? 'None' : 'Lax',
+    partitioned: process.env.NODE_ENV === "production",
   });
   const currentDate = new Date();
   console.log(` ---> Sesión restaurada, user: ${user.name} ${user.lastname} date: ${currentDate}`);
@@ -93,8 +93,9 @@ exports.refreshAccessToken = async (req, res) => {
   }
   try {
     const user = await exports.verifyToken(res, refreshToken, "refreshToken");
-    return res.status(200).json({ message: `Nuevo Token generado para ${user.name}` });
+    req.user =  user;
+    next()
   } catch (error) {
-    return res.status(401).json({ message: "Expiro la sesión", error: error.message });
+    return res.status(401).json({ referenceSession: false, message: "Expiro la sesión", error: error.message });
   }
 };

@@ -29,6 +29,7 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { ModeEdit, Send } from "@mui/icons-material";
 import Colombia from "../assets/colombia1.json";
 import ColombiaDepart from "../assets/colombia2.json";
+import EditEvent from "/edit-svgrepo-com.svg?url"
 
 export default function EventForm({
   formData,
@@ -181,8 +182,8 @@ export default function EventForm({
     >
       <CardMedia
         component="img"
-        image="./event-edit-svgrepo-com.svg"
-        alt="Signup icon"
+        image={EditEvent}
+        alt="Event icon"
         sx={{
           objectFit: "contain",
           mx: "auto",

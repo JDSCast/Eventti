@@ -35,7 +35,7 @@ exports.logInUser = async (req, res) => {
 
     //Asignar una cookies una con httpOnly por seguridad
     setNewTokens(res, user);
-    return res.status(200).json({ message: 'Inicio de sesión exitoso', name: user.name , lastname: user.lastname, email: user.email});
+    return res.status(200).json({ message: 'Inicio de sesión exitoso', referenceSession: true, name: user.name , lastname: user.lastname, email: user.email});
 
     } catch (error) {
         return res.status(500).json({ message: 'Error al iniciar sesión', error: error.message });
@@ -140,8 +140,19 @@ exports.deleteUser = async (req, res) => {
 
 //Respuesta para verificar el usuario
 exports.checkTokens = async (req, res) => {
-    try {
-        res.status(202).json({message: 'Token restaurados'})
+    const accessToken = req.cookies?.accessToken;
+    const refreshToken = req.cookies?.refreshToken;
+    const user = req.user
+  try {
+    //Validar si estan los nuevos tokens
+    if (!accessToken && !refreshToken) {
+      return res
+        .status(401)
+        .json({ referenceSession: false, message: "Debe iniciar sesión para acceder a este recurso" });
+    }
+    
+    return res.status(200).json({ message: 'Token restaurados', referenceSession: true, name: user.name , lastname: user.lastname, email: user.email});
+    
     } catch (error) {
         res.status(401).json({message: 'Token inválidos'})
     }

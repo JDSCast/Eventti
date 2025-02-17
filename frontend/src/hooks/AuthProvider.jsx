@@ -13,22 +13,18 @@ const AuthProvider = ({ children }) => {
     email: Cookies.get("email") || "",
   });
   
-  const [token, setToken] = useState(Cookies.get("accessToken") || "");
+  const [token, setToken] = useState(Cookies.get("referenceSession") || "");
 
   const navigate = useNavigate();
-
+// TODO: cambiar logica
   //Valida las cookies cada que se cambia de direccion
-  useEffect(() => {
+  // useEffect(() => {
 
-    if (!Cookies.get("accessToken") && Cookies.get("referenceSession")) {
+  //   if (!Cookies.get("referenceSession") && !isAuthenticated) {
+  //     checkTokens()
+  //   }
 
-      checkTokens()
-    }
-    if (!Cookies.get("accessToken") && !Cookies.get("referenceSession")) {
-      setToken("");
-    }
-
-  }, [navigate]);
+  // }, [navigate]);
 
   // Si expira la sesion fuera de navigate, cierra la sesion automaticamente
   useEffect(() => {
@@ -45,10 +41,19 @@ const AuthProvider = ({ children }) => {
       if (response.status === 200) {
 
         // Actualizar el estado si se restaura la sesión
-        setToken(Cookies.get("accessToken") || response.data.message);
+        setToken(response.data.referenceSession);
+        setUser({
+          username: `${response.data.name} ${response.data.lastname}`,
+          email: response.data.email,
+        });
+        Cookies.set("username", `${response.data.name} ${response.data.lastname}`, { expires: 2 });
+        Cookies.set("email", response.data.email, { expires: 2 });
+        Cookies.set("referenceSession", response.data.referenceSession, { expires: 2 });
         return true;
       } else {
         // console.log(`la sesión no fue restaurada: ${response.status}`);
+        setToken("");
+        setUser({})
         return false;
       }
     } catch (error) {
@@ -68,15 +73,16 @@ const AuthProvider = ({ children }) => {
         email: response.data.email,
       });
       setAuthenticated(true);
-      setToken(Cookies.get("accessToken"));
+      setToken(response.data.referenceSession);
 
       //Setea la info que recibe del back como una cookie para el front
       Cookies.set(
         "username",
         `${response.data.name} ${response.data.lastname}`,
-        { expires: 1 }
+        { expires: 2 }
       );
-      Cookies.set("email", response.data.email, { expires: 1 });
+      Cookies.set("email", response.data.email, { expires: 2 });
+      Cookies.set("referenceSession", response.data.referenceSession, { expires: 2 });
 
       return navigate("/events");
     }
