@@ -24,12 +24,9 @@ jobs:
         with:
           working-directory: frontend
 
-      - name: Add Environment Variables
+      - name: Build project
         env:
           VITE_URL_SERVER: ${{ secrets.VITE_URL_SERVER }}
-        run: echo "Environment variables configured."
-
-      - name: Build project
         run: npm run build
 
       - name: Upload production-ready build files
