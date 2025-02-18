@@ -11,6 +11,7 @@ import EventActions from "./pages/EventActions";
 import Events from "./pages/Events";
 import AuthProvider from "./hooks/AuthProvider";
 import RouteGuard from "./hooks/RouteGuard";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
                 <Route path="/events/create" element={<EventActions action={"create"} />} />
                 <Route path="/events/:eventId" element={<EventActions  action={"edit"} />} />
                 </Route>
+                <Route path="*" element={<NotFound />}
+                />
               </Routes>
               {/* <Clock /> */}
             </Stack>
