@@ -120,7 +120,7 @@ export default function ViewCards({
                 </CardContent>
               </CardActionArea>
             </Tooltip>
-            {auth.token ? (
+            {auth.token === "admin" ? (
               <CardActions
                 sx={{
                   justifyContent: "right",
@@ -171,9 +171,58 @@ export default function ViewCards({
                   </IconButton>
                 </Tooltip>
               </CardActions>
-            ) : (
-              ""
-            )}
+            ) : event.editable? (
+              <CardActions
+                sx={{
+                  justifyContent: "right",
+                  flexDirection: { sm: "row" },
+                  bgcolor: "background.default",
+                  borderBottom: " solid 5px",
+                  borderColor: "secondary.dark",
+                }}
+              >
+                <Typography
+                  variant="overline"
+                  noWrap
+                  color="textDisabled"
+                  gutterBottom
+                >
+                  OPCIONES{" "}
+                </Typography>
+                <Tooltip title="Editar" arrow>
+                  <IconButton
+                    color="warning"
+                    aria-label="Editar el evento"
+                    onClick={() => {
+                      actionEdit(event._id);
+                    }}
+                    sx={{
+                      border: "2px solid",
+                      borderColor: "warning.main",
+                      borderRadius: "10px",
+                    }}
+                  >
+                    <EditIcon />
+                  </IconButton>
+                </Tooltip>
+                <Tooltip title="Eliminar" arrow>
+                  <IconButton
+                    color="error"
+                    aria-label="Eliminar el evento"
+                    onClick={() => {
+                      actionDelete(event);
+                    }}
+                    sx={{
+                      border: "2px solid",
+                      borderColor: "error.main",
+                      borderRadius: "10px",
+                    }}
+                  >
+                    <DeleteIcon />
+                  </IconButton>
+                </Tooltip>
+              </CardActions>
+            ) : ""}
           </Card>
           </Grow>
         ))
