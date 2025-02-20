@@ -35,11 +35,69 @@ exports.getEventById = async (req, res) => {
     }
 }
 
-//Traer todos los eventos
+//Decide si devuelve todos los eventos o solo los evento de usuario no autenticado
 exports.getAllEvents = async (req, res) => {
+
+    try {
+        if(req.user){
+            if(req.user.role === 'admin'){
+                //Administrador puede ver y editar todos los eventos
+                return await exports.getAllEventsAdmin(req, res);
+            }
+                //Usuario auth puede ver los eventos pero solo puede editar de sus propios eventos
+                return await exports.getAllEventsUser(req, res);
+        }
+        // Usuario sin auth ve solo puede ver los vevntos
+        const events = await Event.find().populate('organizer');
+        const cleanEvents = events.map(event => {
+            const { organizer, ...rest } = event.toJSON();
+            return {
+                ...rest,
+                organizer: {
+                    name: organizer.name,
+                    lastname: organizer.lastname,
+                    email: organizer.email
+                  }
+            };
+        });
+
+        res.status(200).json({message: 'Eventos obtenidos exitosamente', count : cleanEvents.length , events: cleanEvents})
+    } catch (error) {
+        res.status(500).json({message:'Error al obtener los Eventos', error: error.message})
+    }
+}
+
+//Traer todos los eventos para administrador
+exports.getAllEventsAdmin = async (req, res) => {
     try {
         const events = await Event.find().populate('organizer');
         res.status(200).json({message: 'Eventos obtenidos exitosamente',count : events.length , events: events})
+    } catch (error) {
+        res.status(500).json({message:'Error al obtener los Eventos', error: error.message})
+    }
+}
+
+// Traer todos los eventos con indicador de editable si coincide con el usuario autenticado
+exports.getAllEventsUser = async (req, res) => {
+    try {
+        const userId = req.user._id;
+        const events = await Event.find().populate('organizer');
+        const editableEvents = events.map(event => {
+            const eventObj = event.toObject(); // Necesario para manipular solo la info y no el documento de Mongo
+            const editable = event.organizer._id.equals(userId);
+            const { organizer, ...rest } = eventObj;
+
+            return {
+                ...rest,
+                organizer: {
+                    name: organizer.name,
+                    lastname: organizer.lastname,
+                    email: organizer.email
+                  },
+                editable // agrega el campo editable
+            }
+            });
+        res.status(200).json({message: 'Eventos obtenidos exitosamente', count : editableEvents.length, events: editableEvents})
     } catch (error) {
         res.status(500).json({message:'Error al obtener los Eventos', error: error.message})
     }

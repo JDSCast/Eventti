@@ -1,6 +1,6 @@
 const express = require('express');
 const controllerUser = require("../controllers/controllerUser");
-const { isAuthenticatedUser } = require("../middlewares/middlewareAuth");
+const { isAuthenticatedUser, authorizeRoles } = require("../middlewares/middlewareAuth");
 
 const router = express.Router();
 
@@ -10,9 +10,9 @@ router.get('/logout',  controllerUser.logOut);
 router.get('/profile', isAuthenticatedUser, controllerUser.getUserProfile);
 
 //rutas admin
-router.get('/', isAuthenticatedUser, controllerUser.getAllUsers);
-router.get('/:id', isAuthenticatedUser, controllerUser.getUserById);
-router.put('/:id', isAuthenticatedUser, controllerUser.updateUser);
-router.delete('/:id', isAuthenticatedUser, controllerUser.deleteUser);
+router.get('/', isAuthenticatedUser, authorizeRoles("admin"), controllerUser.getAllUsers);
+router.get('/:id', isAuthenticatedUser, authorizeRoles("admin"), controllerUser.getUserById);
+router.put('/:id', isAuthenticatedUser, authorizeRoles("admin"), controllerUser.updateUser);
+router.delete('/:id', isAuthenticatedUser, authorizeRoles("admin"), controllerUser.deleteUser);
 
 module.exports = router;
