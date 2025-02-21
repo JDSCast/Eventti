@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import apiClient from "../api/axiosConfig";
 import Cookies from "js-cookie";
-import { isAuthenticated, setAuthenticated } from "../api/authStatus";
+import { isAuthenticated, setAuthenticated, hasPermission, setPermission } from "../api/authStatus";
 //instancia de Context para mantener la sesion del usuario
 const AuthContext = createContext();
 
@@ -31,8 +31,12 @@ const AuthProvider = ({ children }) => {
     if (!isAuthenticated) {
       logOut();
     }
-
-  }, [isAuthenticated]);
+    if (!hasPermission) {
+      
+      navigate("/home");
+      setPermission(true)
+    }
+  }, [isAuthenticated, hasPermission]);
 
   //Utiliza el endpoint para verificar el refresh token
   const checkTokens = async () => {
