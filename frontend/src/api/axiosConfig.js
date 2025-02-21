@@ -1,5 +1,5 @@
 import axios from "axios";
-import { setAuthenticated } from './authStatus';
+import { setAuthenticated, setPermission } from './authStatus';
 import Cookies from 'js-cookie';
 
 // Configuración de axios
@@ -32,7 +32,13 @@ apiClient.interceptors.response.use(
     if (status === 401) {
 
       setAuthenticated(false);
+      window.location.href = '#/';
+    } else if (status === 403){
+      
+      setPermission(false);
+      window.location.href = '#/'; // Sirve para provocar el cambio en react
     }
+
     return error.response;
   }
 );

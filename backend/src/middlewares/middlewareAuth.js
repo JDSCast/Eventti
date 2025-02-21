@@ -99,3 +99,39 @@ exports.refreshAccessToken = async (req, res) => {
     return res.status(401).json({ referenceSession: false, message: "Expiro la sesión", error: error.message });
   }
 };
+
+// Funcion para verificar el rol del usuario
+exports.authorizeRoles = (...roles) => {
+  return (req, res, next) => {
+    if (!req.user) {
+      return res
+        .status(401)
+        .json({ message: "Debes iniciar sesión para acceder a este recurso." });
+    }
+    if (!roles.includes(req.user.role)) {
+      return res
+        .status(403)
+        .json({ message: "No tienes permisos para acceder a este recurso." });
+    }
+    next();
+  };
+};
+
+// Funcion para traer el usuario a la peticion si esta autenticado
+exports.optionalAuth = async (req, res, next) => {
+  const accessToken = req.cookies?.accessToken;
+  const refreshToken = req.cookies?.refreshToken;
+
+  if (accessToken) {
+    try {
+      req.user = await exports.verifyToken(res, accessToken, "accessToken");
+
+    } catch (error) {}
+  } else if (refreshToken) {
+    try {
+      req.user = await exports.verifyToken(res, refreshToken, "refreshToken");
+    } catch (error) {}
+  }
+
+  next();
+}

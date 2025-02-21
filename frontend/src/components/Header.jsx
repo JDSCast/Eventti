@@ -12,7 +12,7 @@ import {
   ListItemIcon,
   Divider,
 } from "@mui/material";
-import { Home, AccountCircle, Logout, Person } from "@mui/icons-material";
+import { Home, AccountCircle, Logout, Person, Menu as MenuIcon } from "@mui/icons-material";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../hooks/AuthProvider";
 
@@ -44,6 +44,18 @@ export default function Header() {
       <Box sx={{ height: "0.5rem", bgcolor: "secondary.main" }}></Box>
       <AppBar position="static">
         <Toolbar>
+        {auth.token === "admin"? (
+          <IconButton
+          size="large"
+          edge="start"
+          color="inherit"
+          aria-label="menu admin"
+          sx={{ mr: 2 }}
+          onClick={handleHome}
+        >
+          <MenuIcon />
+        </IconButton>) : ""
+        }
           <IconButton
             size="large"
             edge="start"

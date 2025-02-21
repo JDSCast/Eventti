@@ -4,7 +4,7 @@
 **Eventti** es una aplicación web desarrollada con el stack MERN (MongoDB, Express, React, Node.js) que permite a los usuarios ver y publicar sus eventos u ocasiones especiales. La aplicación cuenta con las siguientes características:
 
 - CRUD completo para la creación de eventos.
-- Registro y autenticación de usuarios, con mantenimiento de sesión.
+- Registro y autenticación de usuarios, con mantenimiento de sesión y acceso por roles (admin y user).
 - Acceso restringido mediante rutas protegidas por la autenticación.
 - Diseño atractivo y responsive utilizando la librería Material UI.
 - Dos vistas para los eventos: versión en tarjetas y estilo tablas.
@@ -12,8 +12,9 @@
 - Tema de diseño oscuro y claro.
 
 ## Características Planeadas
-Estamos trabajando en las siguientes características adicionales:
-- Implementación del acceso por roles.
+Estas son algunas características que aún están en desarrollo:
+
+- ~~Implementación del acceso por roles.~~ ✔️
 - Subida de imágenes para los eventos y avatars de usuarios.
 - CRUD de usuarios (endpoints listos en backend, falta la interfaz en frontend)
 

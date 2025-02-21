@@ -23,6 +23,11 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
         select: false // para ocultar el campo en consultas
+    },
+    role:{
+        type: String,
+        enum: ['user', 'admin'],
+        default: 'user'
     }
 });
 
