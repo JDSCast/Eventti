@@ -8,6 +8,7 @@ router.post('/signup', controllerUser.registerUser);
 router.post('/login', controllerUser.logInUser);
 router.get('/logout',  controllerUser.logOut);
 router.get('/profile', isAuthenticatedUser, controllerUser.getUserProfile);
+router.get('/update', isAuthenticatedUser, controllerUser.updateUserProfile);
 
 //rutas admin
 router.get('/', isAuthenticatedUser, authorizeRoles("admin"), controllerUser.getAllUsers);

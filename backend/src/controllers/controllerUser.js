@@ -61,21 +61,44 @@ exports.getUserProfile = async (req, res) => {
     const userId = req.user._id;
     try {
         const user = await User.findById(userId);
-
+        const { _id, role, ...rest} = user.toJSON()
+        
         //Verifica el usuario
         if (user != null) {
-           res.status(200).json({message: 'El usuario se obtuvo exitosamente', user: user});
+           res.status(200).json({message: 'El usuario se obtuvo exitosamente', user: rest});
         } else {
-            res.status(404).json({message:`No se ha encontrado ningun usuario con el id: ${userId}`});
+            res.status(404).json({message:`No se ha encontrado ningun usuario con esa identificación`});
         }
 
     } catch (error) {
         res.status(500).json({message:'Error al obtener el perfil del usuario', error: error.message})
     }
 }
+//Actualizar el perfil del usuario
+exports.updateUserProfile = async (req, res) =>{
+    const userId = req.user._id;
+    const { name, lastname, email, ...rest} = req.body;
+    const newProfile = {
+        name,
+        lastname,
+        email
+    } 
+    try {
+        const userUpdate = await User.findByIdAndUpdate( userId, newProfile, {new: true});
 
+        //Verificar el usuario
+        if(userUpdate != null){
+            res.status(200).json({message:'Usuario actualizado correctamente', user: userUpdate})
+        } else {
+            res.status(404).json({message:`Usuario con id: ${req.params.id} no se encuentra en la base de datos`})
+        };
 
-//Traer un usuario - dev only
+    } catch (error) {
+        res.status(500).json({message: 'Error al actualizar el usuario', error: error.message})
+    };
+};
+
+//Traer un usuario - admin only
 exports.getUserById = async (req, res) => {
     try {
         const userOne = await User.findById(req.params.id);
@@ -93,7 +116,7 @@ exports.getUserById = async (req, res) => {
 }
 
 
-//Traer todos los usuarios - dev only
+//Traer todos los usuarios - admin only
 exports.getAllUsers = async (req, res) => {
     try {
         const users = await User.find();
@@ -103,7 +126,7 @@ exports.getAllUsers = async (req, res) => {
     };
 };
 
-//Actualizar el usuario
+//Actualizar el usuario - admin only
 exports.updateUser = async (req, res) =>{
     try {
         const userUpdate = await User.findByIdAndUpdate( req.params.id, req.body, {new: true});
@@ -120,7 +143,7 @@ exports.updateUser = async (req, res) =>{
     };
 };
 
-//Eliminar el usuario
+//Eliminar el usuario - admin only
 exports.deleteUser = async (req, res) => {
     try {
         const userDelete = await User.findById( req.params.id);
