@@ -107,8 +107,8 @@ export default function DialogEvent({ event, open, handleCloseEvent }) {
         <Box sx={{ display: "flex", gap: 1, justifyContent: "space-between", alignItems: "center" }}>
           <Avatar
             sx={{ bgcolor: "primary.dark" }}
-            alt=""
-            src="/broken-image.jpg"
+            alt={`${event.organizer?.name} ${event.organizer?.lastname}`}
+            src=""
           />
           <Typography>
             {event.organizer?.name} {event.organizer?.lastname}
