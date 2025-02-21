@@ -78,7 +78,11 @@ export default function Events() {
 
   const handleDelete = async (eventId) => {
     try {
-      await apiClient.delete(`events/${eventId}`);
+      const response = await apiClient.delete(`events/${eventId}`);
+      // TODO: Implementar alerta de errores para events
+      if (response.status !== 200) {
+        throw new Error(response.data.message);
+      }
       setEvents((events) => events.filter((eve) => eve._id !== eventId));
     } catch (error) {
       setError(error.message);

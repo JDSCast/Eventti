@@ -95,20 +95,14 @@ export default function ViewTable({
       headerName: "Opciones",
       sortable: false,
       hideable: false,
-      getActions: (params) => [
-        <GridActionsCellItem
-          key={params.id}
-          icon={<EditIcon color="warning" />}
-          label="Editar"
-          onClick={() => actionEdit(params.id)}
-        />,
-        <GridActionsCellItem
-          key={params.id}
-          icon={<DeleteIcon color="error" />}
-          label="Eliminar"
-          onClick={() => actionDelete(params.row)}
-        />,
-      ],
+      getActions: (params) => 
+        {
+          if (auth.token === "admin" || params.row.editable) {
+            return optionsIcons(params);
+          } else {
+            return [];
+          }
+        } 
     },
   ];
 
@@ -131,6 +125,21 @@ export default function ViewTable({
   //Controla la cantidad de rows por page
   const paginationModel = { page: 0, pageSize: 10 };
 
+  const optionsIcons = (params) => {
+    return [
+    <GridActionsCellItem
+      key={params.id}
+      icon={<EditIcon color="warning" />}
+      label="Editar"
+      onClick={() => actionEdit(params.id)}
+    />,
+    <GridActionsCellItem
+      key={params.id}
+      icon={<DeleteIcon color="error" />}
+      label="Eliminar"
+      onClick={() => actionDelete(params.row)}
+    />
+  ]}
   return (
     <Box
       sx={{
